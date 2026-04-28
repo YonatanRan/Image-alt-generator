@@ -13,12 +13,12 @@ if (!current_user_can('manage_options')) {
 ?>
 
 <div class="wrap">
-    <h1>About ResultsRepeat Image Alt Generator</h1>
+    <h1>About Image Alt Generator</h1>
 
     <div style="background: #fff; padding: 20px; border: 1px solid #ccc; border-radius: 5px; margin: 20px 0;">
         <h2>What This Plugin Does</h2>
         <p>
-            <strong>ResultsRepeat Image Alt Generator</strong> automatically generates descriptive, SEO-friendly
+            <strong>Image Alt Generator</strong> automatically generates descriptive, SEO-friendly
             alt text for your images using Claude AI's advanced vision capabilities. Alt text improves
             accessibility for visually impaired users and helps search engines understand your images.
         </p>
@@ -126,9 +126,9 @@ if (!current_user_can('manage_options')) {
         <h2>Plugin Information</h2>
         <ul>
             <li><strong><?php esc_html_e('Version:', 'rr-image-alt'); ?></strong> <?php echo esc_html(RR_IMAGE_ALT_VERSION); ?></li>
-            <li><strong>Developer:</strong> ResultsRepeat</li>
-            <li><strong><?php esc_html_e('Website:', 'rr-image-alt'); ?></strong> <a href="<?php echo esc_url('https://resultsrepeat.com'); ?>" target="_blank" rel="noopener noreferrer">resultsrepeat.com</a></li>
-            <li><strong>Support:</strong> For questions or issues, visit our website</li>
+            <li><strong>Developer:</strong> Yonatan Ran <yonatan.ran@gmail.com></li>
+            <li><strong><?php esc_html_e('Website:', 'rr-image-alt'); ?></strong> <a href="<?php echo esc_url('https://github.com/YonatanRan/Image-alt-generator/'); ?>" target="_blank" rel="noopener noreferrer">https://github.com/YonatanRan/Image-alt-generator/</a></li>
+            <li><strong>Support:</strong> For questions or issues, visit the github repo</li>
         </ul>
     </div>
 

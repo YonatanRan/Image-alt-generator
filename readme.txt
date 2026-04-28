@@ -1,11 +1,11 @@
-=== ResultsRepeat Image Alt Generator ===
+=== Image Alt Generator ===
 
-Contributors: resultsrepeat
+Contributors: Yonatan Ran
 Tags: alt text, accessibility, images, claude, ai, seo, media library
 Requires at least: 5.9
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Automatically generates descriptive alt text for images using Claude AI. Improve
 
 == Description ==
 
-ResultsRepeat Image Alt Generator uses Claude AI's vision capabilities to automatically generate accurate, concise alt text for your images. Alt text helps screen readers describe images to visually impaired users and helps search engines understand your content.
+ Image Alt Generator uses Claude AI's vision capabilities to automatically generate accurate, concise alt text for your images. Alt text helps screen readers describe images to visually impaired users and helps search engines understand your content.
 
 **Features:**
 
@@ -33,7 +33,7 @@ ResultsRepeat Image Alt Generator uses Claude AI's vision capabilities to automa
 
 == Installation ==
 
-1. Upload the plugin files to `/wp-content/plugins/resultsrepeat-image-alt-generator/` or install through the WordPress plugins screen.
+1. Upload the plugin files to `/wp-content/plugins/-image-alt-generator/` or install through the WordPress plugins screen.
 2. Activate the plugin through the **Plugins** screen.
 3. Go to **Alt Generator → Settings** and enter your Claude API key.
 4. Upload images or use **Media → Library** bulk action "Generate Alt Text with Claude AI". Batch status is checked automatically every minute.
@@ -47,10 +47,6 @@ Yes. Get a Claude API key from https://console.anthropic.com/ and enter it in Al
 = Is bulk processing free? =
 
 Claude API usage is billed by Anthropic. The plugin does not charge you; you pay Anthropic for API usage. Check the Cost Calculator page in the plugin for estimates.
-
-= My site is not publicly accessible. Will it work? =
-
-Yes. Enable "Use Base64 Encoding" in Settings. This sends image data directly to the API instead of URLs. It uses more tokens and costs more but works for password-protected or local sites.
 
 == Screenshots ==
 
@@ -67,7 +63,14 @@ Yes. Enable "Use Base64 Encoding" in Settings. This sends image data directly to
 * Automatic polling (WordPress cron) for batch status—no webhook required.
 * Cost calculator and batch history.
 
+= 1.0.1 =
+Removed company name
+
+
 == Upgrade Notice ==
 
 = 1.0.0 =
-Initial release of ResultsRepeat Image Alt Generator.
+Initial release of Image Alt Generator.
+
+= 1.0.1 =
+Removed company name.

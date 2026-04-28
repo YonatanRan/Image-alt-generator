@@ -251,7 +251,7 @@ $bulk_url = esc_url(admin_url('admin.php?page=rr-image-alt-bulk'));
                 </ul>
 
                 <p style="margin-top: 20px;">
-                    <strong><?php esc_html_e('Still need help?', 'rr-image-alt'); ?></strong> <?php echo wp_kses(sprintf(__('Visit <a href="%s" target="_blank" rel="noopener noreferrer">ResultsRepeat.com</a> for support.', 'rr-image-alt'), esc_url('https://resultsrepeat.com')), array('a' => array('href' => array(), 'target' => array(), 'rel' => array()))); ?>
+                    <strong><?php esc_html_e('Still need help?', 'rr-image-alt'); ?></strong> <?php echo wp_kses(sprintf(__('Visit <a href="%s" target="_blank" rel="noopener noreferrer">https://github.com/YonatanRan/Image-alt-generator/</a> for support.', 'rr-image-alt'), esc_url('https://github.com/YonatanRan/Image-alt-generator/')), array('a' => array('href' => array(), 'target' => array(), 'rel' => array()))); ?>
                 </p>
             </div>
 

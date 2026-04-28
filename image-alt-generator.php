@@ -1,13 +1,12 @@
 <?php
 /**
- * Plugin Name: ResultsRepeat Image Alt Generator
- * Plugin URI: https://resultsrepeat.com
+ * Plugin Name: Image Alt Generator
+ * Plugin URI: https://github.com/YonatanRan/Image-alt-generator/
  * Description: Automatically generates alt text for images using Claude AI API
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 5.9
  * Requires PHP: 7.4
- * Author: ResultsRepeat
- * Author URI: https://resultsrepeat.com
+ * Author: Yonatan Ran <yonatan.ran@gmail.com>
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: rr-image-alt
@@ -19,7 +18,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('RR_IMAGE_ALT_VERSION', '1.0.0');
+define('RR_IMAGE_ALT_VERSION', '1.0.1');
 define('RR_IMAGE_ALT_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('RR_IMAGE_ALT_PLUGIN_URL', plugin_dir_url(__FILE__));
 
@@ -28,7 +27,7 @@ require_once RR_IMAGE_ALT_PLUGIN_DIR . 'plugin-update-checker-5.6/plugin-update-
 $rr_image_alt_update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
     'https://github.com/YonatanRan/Image-alt-generator/',
     __FILE__,
-    'resultsrepeat-image-alt-generator'
+    'image-alt-generator'
 );
 $rr_image_alt_update_checker->setBranch('master');
 
