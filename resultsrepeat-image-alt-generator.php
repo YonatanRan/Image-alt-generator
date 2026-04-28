@@ -23,6 +23,15 @@ define('RR_IMAGE_ALT_VERSION', '1.0.0');
 define('RR_IMAGE_ALT_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('RR_IMAGE_ALT_PLUGIN_URL', plugin_dir_url(__FILE__));
 
+// Plugin auto-update checker (GitHub, branch-based).
+require_once RR_IMAGE_ALT_PLUGIN_DIR . 'plugin-update-checker-5.6/plugin-update-checker.php';
+$rr_image_alt_update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
+    'https://github.com/YonatanRan/Image-alt-generator/',
+    __FILE__,
+    'resultsrepeat-image-alt-generator'
+);
+$rr_image_alt_update_checker->setBranch('master');
+
 // Require core files
 require_once RR_IMAGE_ALT_PLUGIN_DIR . 'includes/class-rr-image-alt-core.php';
 require_once RR_IMAGE_ALT_PLUGIN_DIR . 'includes/class-rr-image-alt-api.php';
