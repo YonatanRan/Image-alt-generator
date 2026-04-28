@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="343ab081-fcad-46d7-bdc3-2a2f60c73110" name="123PLG" url="http://sftp.flywheelsites.com">
+        <fileTransfer rootFolder="/org-results-repeat/123plg-1/wp-content/plugins/resultsrepeat-image-alt-generator" accessType="SFTP" host="sftp.flywheelsites.com" port="22" sshConfigId="f8119331-34fd-482a-92f1-2c7397596249" sshConfig="yonatanran@sftp.flywheelsites.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
